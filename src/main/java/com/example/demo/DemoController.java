@@ -11,5 +11,13 @@ import org.springframework.web.bind.annotation.RestController;
 	public String welcome() {
 		return "welcome to demo application";
 	}
+	@GetMapping("/hello")
+	public String hello() {
+		return "hello to demo application";
+	}
+	@GetMapping("/greeting")
+	public String greeting() {
+		return "greeting to demo application";
+	}
 
 }
